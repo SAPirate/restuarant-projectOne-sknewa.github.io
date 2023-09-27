@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.nav-container{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    margin: 0% 14%;
+}
+@media (max-width:500px){
+    .nav{
+        width: 100%;
+        margin: 0%;
+    }
+}
+.nav .logo img{
+    width: 50px;
+    height: 50px;
+    padding-top: 1%;
+}
+.nav .small-menu {
+  margin-left: 10%;
+  width: 100%;
+  margin-top: 0%;
+}
+@media (max-width:500px){
+    .nav .small-menu{
+        margin-left: 1%;
+    }
+}
+.nav .small-menu a{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    text-decoration: none;
+    margin-right: 3%;
+}
+.nav .small-menu button{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(213, 94, 50);
+    border: rgb(213, 94, 50);
+    color: #ffffffff;
+    border-radius: 100px;
+    padding: 6px 20px;
+    margin-top: 1%;
+}
+
+/*  */
+
+.area{
+width: 100%;
+margin-top: 4%;
+}
+.recognised-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.recognised-inputs h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 2px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    color:#acacac;
+    letter-spacing: 1px;
+   
+}
+@media (max-width:500px){
+    .recognised-inputs h1{
+        font-size: 7px;
+    }
+}
+.recognised-inputs{
+    padding: 6px;
+    background-color: #eee;
+    background-color: rgb(23, 23, 51);
+    border: 1px solid #acacac;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.recognised-inputs input{
+    padding: 4px 10px;
+}
+@media (max-width:500px){
+    .recognised-inputs input{
+       padding: 3px 5px;
+    }
+}
+.recognised-inputs i{
+    padding: 4px;
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #acacac;
+    font-size: 13px;
+    border-radius: 100px;
+}
+.recognised-inputs button{
+    background-color: lawngreen;
+    border: 2px solid lawngreen;
+    color: #ffffffff;
+    padding: 7px 40px;
+    font-family:'Roboto', sans-serif;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+@media (max-width:500px){
+    .recognised-inputs button{
+       padding: 3px 15px;
+    }
+}
+.area-under{
+    margin-top: 45;
+}
+.area-under h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 2px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    color:#222;
+    letter-spacing: 1px;
+}
+table{
+    font-family:'Roboto', sans-serif;
+    border-collapse: collapse;
+    margin: 0% 1%;
+    width: 98%;
+    background-color: rgb(0,0,0,0.7);
+}
+table th{
+    border: 1px solid #acacac;
+    text-align: left;
+    padding: 6px;
+    text-transform: capitalize;
+    /* background-color: ; */
+    color: #acacac;
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Roboto', sans-serif;
+}
+table td{
+    border: 1px solid #acacac;
+    text-align: left;
+    padding: 8px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #acacac;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(0,0,0,0.7);
+}
+.rates{
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(59, 135, 161);
+}

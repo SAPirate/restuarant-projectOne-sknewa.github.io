@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+.nav-container{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    margin: 0% 14%;
+}
+@media (max-width:500px){
+    .nav{
+        width: 100%;
+        margin: 0%;
+    }
+}
+.nav .logo img{
+    width: 50px;
+    height: 50px;
+    padding-top: 1%;
+}
+.nav .small-menu {
+  margin-left: 10%;
+  width: 100%;
+  margin-top: 0%;
+}
+@media (max-width:500px){
+    .nav .small-menu{
+        margin-left: 1%;
+    }
+}
+.nav .small-menu a{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    text-decoration: none;
+    margin-right: 3%;
+}
+.nav .small-menu button{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(213, 94, 50);
+    border: rgb(213, 94, 50);
+    color: #ffffffff;
+    border-radius: 100px;
+    padding: 6px 20px;
+    margin-top: 1%;
+}
+
+/*  */
+
+.form{
+    width: 100%;
+    margin-top: 2%;
+}
+.form h1{
+    text-transform: capitalize;
+    font-size: 22px;
+    padding: 7px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #666;
+    background-color: #eee;
+    /* border: 1px solid rgb(213, 94, 50); */
+    border-radius: 3px;
+}
+form{
+    margin: 1% 10%;
+}
+@media (max-width:500px){
+    form{
+        width: 100%;
+        margin: 1% 0%;
+    }
+}
+form input{
+    width: 500px;
+    padding: 7px;
+    margin-top: 1%;
+}
+@media (max-width:500px){
+    form input{
+        width: 100%;
+        margin: 1% 0%;
+    }
+}
+.buttons{
+    margin: 2% 0%;
+}
+.buttons button{
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: #333;
+    background-color:#fff;
+    margin: 0% 0%;
+    border: 1px solid rgb(213, 94, 50);
+    border-radius: 6px;
+    padding: 7px 60px;
+}

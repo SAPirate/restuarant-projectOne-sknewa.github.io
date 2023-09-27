@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.nav-container{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    margin: 0% 14%;
+}
+@media (max-width:500px){
+    .nav{
+        width: 100%;
+        margin: 0%;
+    }
+}
+.nav .logo img{
+    width: 50px;
+    height: 50px;
+    padding-top: 1%;
+}
+.nav .small-menu {
+  margin-left: 10%;
+  width: 100%;
+  margin-top: 0%;
+}
+@media (max-width:500px){
+    .nav .small-menu{
+        margin-left: 1%;
+    }
+}
+.nav .small-menu a{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    text-decoration: none;
+    margin-right: 3%;
+}
+.nav .small-menu button{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(213, 94, 50);
+    border: rgb(213, 94, 50);
+    color: #ffffffff;
+    border-radius: 100px;
+    padding: 6px 20px;
+    margin-top: 1%;
+}
+
+/* main menu css code goes here */
+
+.button-nav-container{
+    width: 100%;
+    margin-top: 4%;
+}
+
+/* chicken menu css code goes here  */
+
+.menu-whole{
+    width: 100%;
+    margin-top: 4%;
+}
+.header-cat h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    color:#222;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+    margin-top: 2%; 
+    background-color: #eee;
+}
+.shop-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(390px,auto));
+    gap:1.5rem;
+    margin: 5% 0%;
+}
+.shop-box{
+    margin-bottom: 1vh;
+    border-radius: 6px;
+    margin-top: 0%;
+ }
+.shop-box img{
+     width: 100%;
+     height:490px;
+     border-radius: 3px;  
+ }
+ .shop-box .drawing-logo img{
+    width: 100%;
+    height: 150px;
+ }
+ .shop-box h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 4px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    color:#333;
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+.shop-box h3{
+     text-align: center;
+     text-transform:capitalize;
+     font-size: 18px;
+     padding: 4px;
+     font-weight: 400;
+     font-family:'Roboto', sans-serif;
+     color:rgb(199, 78, 78);
+     letter-spacing: 1px;
+    
+ }
+ .shop-box p{
+    margin: 2% 3%;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 14px;
+    color:#222;
+ }
+.shop-box button{
+     padding: 5px 20px;
+     font-size: 17px;
+     font-family:'Roboto', sans-serif;
+     text-transform: capitalize;
+     color: #333;
+     background-color:#fff;
+     margin: 0% 30%;
+     border: 1px solid rgb(213, 94, 50);
+     border-radius: 6px;
+}
+.popup .overlay{
+    position: absolute;
+    top: 41%;
+    left: 7%;
+    width: 29vw;
+    height: 50vh;
+    background: deepskyblue;
+    z-index: 1;
+    display: none;
+    line-height: 16px;
+}
+@media (max-width:500px){
+    .popup .overlay{
+        width: 100%;
+        left: 0%;
+        margin: 2% 1%;
+    }
+}
+.popup-view .overlay-view{
+    position: absolute;
+    top: 41%;
+    left: 36%;
+    width: 29vw;
+    height: 50vh;
+    background: deepskyblue;
+    z-index: 1;
+    display: none;
+    line-height: 16px;
+}
+@media (max-width:500px){
+    .popup-view .overlay-view{
+        width: 100%;
+        left: 0%;
+        top: 90%;
+        margin: 2% 1%;
+    }
+}
+.popup-view-other .overlay-view-other{
+    position: absolute;
+    top: 41%;
+    left: 65%;
+    width: 29vw;
+    height: 50vh;
+    background: deepskyblue;
+    z-index: 1;
+    display: none;
+    line-height: 16px;
+}
+@media (max-width:500px){
+    .popup-view-other .overlay-view-other{
+        width: 100%;
+        left: 0%;
+        top: 190%;
+        margin: 2% 1%;
+    }
+}
+
+.quantity button{
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: #333;
+    background-color:#fff;
+    margin: 0% 3%;
+    border: 1px solid rgb(213, 94, 50);
+    border-radius: 6px;
+}
+#up-arrow,#down-arrow{
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    background-color:rgb(179, 53, 53);
+    border: 1px solid rgb(213, 94, 50);
+    border-radius: 2px;
+    font-weight: 700;
+  }
+  #total-count{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 4px 10px;
+  }
+  .quantity{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    height: 10px;
+    padding: 10px;
+    margin-bottom: 4%;
+  }
+.popup .overlay h1{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-transform: capitalize;
+}
+.popup-view .overlay-view h1{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-transform: capitalize;
+}
+.popup-view-other .overlay-view-other h1{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-transform: capitalize;
+}
+.popup .close-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    color: rgb(179, 53, 53);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.popup-view .close-btn-view{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    color: rgb(179, 53, 53);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.popup-view-other .close-btn-view-other{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    color: rgb(179, 53, 53);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.overlay .details-pop{
+    background-color: #ffffffff;
+}
+@media (max-width:500px){
+    .overlay .details-pop{
+        width: 100%;
+    }
+}
+.overlay-view .details-pop-view{
+    background-color: #ffffffff;
+}
+.details-pop-view-other{
+    background-color: #ffffffff;
+}
+.overlay img{
+    width: 350px;
+    height: 120px;
+    margin: 0% 7%;
+}
+.overlay-view img{
+    width: 350px;
+    height: 100px;
+    margin: 0% 7%;
+}
+.overlay-view-other img{
+    width: 350px;
+    height: 100px;
+    margin: 0% 7%;
+}
+.overlay p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(179, 53, 53);
+    text-transform: capitalize;
+    text-align: left;
+}
+.overlay-view p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-transform: capitalize;
+    text-align: left;
+}
+.overlay-view-other p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-transform: capitalize;
+    text-align: left;
+}
+.overlay h4{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin-top: 1%;
+    text-align: center;
+    padding: 7px;
+    text-transform: uppercase;
+  
+}
+.overlay-view h4{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 1%;
+    padding: 7px;
+    text-transform: uppercase;
+}
+.overlay-view-other h4{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 1%;
+    padding: 7px;
+    text-transform: uppercase;
+}
+.popup.active .overlay{
+    display: block;
+}
+.popup-view.active .overlay-view{
+    display: block;
+}
+.popup-view-other.active .overlay-view-other{
+    display: block;
+}
